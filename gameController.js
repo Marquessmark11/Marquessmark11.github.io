@@ -188,7 +188,7 @@ function drawTank() {
 				drawPoly(shapes[n].x, shapes[n].y, shapes[n].size, shapes[n].angle, "#5E71CA", 9);
 			}
 			if (shapes[n].health < shapes[n].maxhealth) {
-				ctx.fillStyle = "#555555";
+				ctx.fillStyle = "#333333";
 				ctx.roundRect(shapes[n].x - shapes[n].size, shapes[n].y + shapes[n].size + 10, shapes[n].size * 2, 10, 3).fill();
 				ctx.fillStyle = "#86C680";
 				ctx.roundRect(shapes[n].x - shapes[n].size + 2, shapes[n].y + shapes[n].size + 12, (shapes[n].size * 2) * (shapes[n].health / shapes[n].maxhealth) - 2, 6, 3).fill();
