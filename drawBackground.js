@@ -4,7 +4,7 @@ function drawStuff() {
 	lines = {};
 	lines.v = 0;
 	lines.h = 0;
-	ctx.strokeStyle = "#1F3B5E";
+	ctx.strokeStyle = "#66ffcc";
 	for (lines.h = 0; lines.h <= c.height / 26 + 2; lines.h += 1) {
 		ctx.beginPath();
 		ctx.moveTo(0, lines.h * 26 + offset.y);
