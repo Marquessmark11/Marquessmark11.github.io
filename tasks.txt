@@ -13,3 +13,5 @@ remove shell color due to it being useless
 builder blocks
 boomer boomerangs
 acid and chiller bullets
+
+(This tasks list is obsolete, this doesnt mean anything, I am keeping it in for fun.)
