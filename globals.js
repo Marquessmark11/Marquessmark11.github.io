@@ -125,7 +125,7 @@ function Shape(x, y, random) {
 		this.maxhealth = 1000
 		// Weird thing lol
 	} else if (random < 0.70) {
-		stype = 6
+		stype = 4
 		this.size = 10
 		this.health = 500
 		this.maxhealth = 1000
